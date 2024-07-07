@@ -85,7 +85,7 @@
       background-color: #c8232c;
     }
 
-    .telegram:hover {
+    .orcid:hover {
       background-color: #2AABEE;
     }
 
@@ -155,7 +155,7 @@
 
       <!-- Start clarivate Icon -->
       <div id="clarivate" onclick="navigate(this.id)" class="social clarivate">
-        <span class="icon"><a href="https://tukuz.com/clarivate-web-of-science-logo-vector-svg/" target="_blank"><img src="https://tukuz.com/wp-content/uploads/2020/10/clarivate-web-of-science-logo-vector.png" /></a></i></i></span>
+        <span class="icon"><i class="fa-solid fa-atom"></i></i></span>
       </div>
       <!-- End clarivate Icon -->
 
@@ -171,11 +171,11 @@
       </div>
       <!-- End pinterest Icon -->
 
-      <!-- Start telegram Icon 
-      <div id="telegram" onclick="navigate(this.id)" class="social telegram">
-        <span class="icon telegram"><i class="fab fa-telegram"></i></span>
+      <!-- Start orcid Icon -->
+      <div id="orcid" onclick="navigate(this.id)" class="social orcid">
+        <span class="icon orcid"><i class="fa-brands fa-orcid"></i></i></span>
       </div>
-      <!-- End telegram Icon -->
+      <!-- End orcid Icon -->
 
     </div>
 
@@ -218,8 +218,8 @@
         else if (id === "pinterest") {
           window.open("https://www.pinterest.com/", '_blank').focus(); //Add the url to your pinterest account
         }
-        else if (id === "telegram") {
-          window.open("https://web.telegram.org/", '_blank').focus(); //Add the url to your telegram account
+        else if (id === "orcid") {
+          window.open("https://orcid.org/0000-0003-4703-0760", '_blank').focus(); //Add the url to your orcid account
         }
       }
 
